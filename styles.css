@@ -1,0 +1,91 @@
+/* Estilo geral para o corpo do documento */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo clara */
+}
+
+/* Estilo para o cabeçalho e navegação */
+header {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Texto branco */
+    padding: 10px 0; /* Espaçamento em cima e embaixo */
+}
+
+nav ul {
+    list-style-type: none; /* Remove marcadores */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinha itens horizontalmente */
+    justify-content: center; /* Centraliza o menu */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaçamento entre itens */
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+    padding: 10px;
+    display: block; /* Torna o link um bloco para o clique */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px; /* Espaçamento interno */
+    max-width: 900px; /* Largura máxima */
+    margin: 20px auto; /* Centraliza o conteúdo */
+    background-color: #fff; /* Cor de fundo branca */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Texto branco */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 10px; /* Espaçamento interno */
+    position: fixed; /* Fixa o rodapé na parte inferior */
+    width: 100%; /* Largura total */
+    bottom: 0; /* Fixa na parte inferior da página */
+}
+
+/* Estilo para o formulário */
+form {
+    max-width: 600px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o formulário */
+}
+
+form label {
+    display: block; /* Torna o rótulo um bloco */
+    margin: 10px 0 5px; /* Espaçamento acima e abaixo */
+}
+
+form input, form textarea {
+    width: 100%; /* Largura total */
+    padding: 8px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaçamento abaixo */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+form button {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Texto branco */
+    padding: 10px 15px; /* Espaçamento interno */
+    border: none; /* Remove borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+
+form button:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+}
